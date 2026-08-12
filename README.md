@@ -1,34 +1,41 @@
 # RTL Design and Verification Basics
 
-A collection of RTL design and functional verification projects covering fundamental combinational and sequential digital circuits, implemented using Verilog and SystemVerilog testbenches.
+A collection of RTL design and functional verification projects covering fundamental combinational and sequential digital circuits, implemented using Verilog HDL and SystemVerilog testbenches.
 
 ## Project Overview
 
-This repository contains RTL implementations of fundamental digital circuits developed using Verilog HDL and verified using SystemVerilog testbenches.
+This repository contains fundamental RTL design and verification exercises developed to strengthen digital design concepts and gain practical experience in Verilog HDL and SystemVerilog-based verification.
 
-The project covers both combinational and sequential logic, including arithmetic circuits, multiplexers, encoders, decoders, flip-flops, counters, shift registers, and finite state machines.
+The project covers combinational logic, sequential logic, arithmetic circuits, data selection, encoding and decoding, flip-flops, counters, shift registers, and finite state machines.
 
-Each design is accompanied by a testbench to apply stimulus and verify the functional behavior through simulation.
+Each RTL design is accompanied by a testbench for functional verification through simulation and waveform analysis.
+
+## Objectives
+
+- Develop and implement fundamental digital circuits using Verilog HDL.
+- Understand and apply combinational and sequential RTL design concepts.
+- Develop SystemVerilog testbenches for functional verification.
+- Generate test stimulus and verify RTL functionality through simulation.
+- Analyze waveforms and debug design behavior.
+- Gain practical experience in RTL design and verification.
 
 ## Tools & Technologies
 
 - **HDL:** Verilog, SystemVerilog
-- **Design:** RTL Design, Combinational Logic, Sequential Logic, FSM
+- **Simulation:** ModelSim / QuestaSim
+- **Design:** RTL Design, Digital Logic Design, Combinational Logic, Sequential Logic, FSM
 - **Verification:** SystemVerilog Testbenches, Functional Verification
-- **Simulation:** QuestaSim / ModelSim
 
 ## Combinational RTL Designs
 
-The following combinational circuits were designed and functionally verified:
-
-1. **Half Adder**
-2. **Full Adder**
-3. **Adder/Subtractor**
-4. **Ripple Carry Adder**
-5. **Multiplexer**
-6. **8-to-3 Encoder**
-7. **BCD to 7-Segment Decoder**
-8. **BCD Decoder**
+- Half Adder
+- Full Adder
+- Adder/Subtractor
+- Ripple Carry Adder
+- Multiplexer
+- 8-to-3 Encoder
+- BCD to 7-Segment Decoder
+- BCD Decoder
 
 ## Sequential RTL Designs
 
@@ -60,17 +67,18 @@ The following combinational circuits were designed and functionally verified:
 
 ## Verification
 
-SystemVerilog testbenches are used to verify the functional behavior of the RTL designs.
+The RTL designs are verified using SystemVerilog-based testbenches.
 
 The verification process includes:
 
 - Testbench development
+- DUT instantiation
 - Clock and reset generation
-- Input stimulus generation
-- Functional checking
-- Simulation-based verification
+- Stimulus generation
+- Functional verification
+- Simulation
 - Waveform analysis
-- Debugging of RTL functionality
+- RTL debugging
 
 ## Project Structure
 
