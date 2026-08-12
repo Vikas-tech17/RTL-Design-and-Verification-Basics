@@ -2,7 +2,15 @@
 
 A collection of RTL design and functional verification projects covering fundamental combinational and sequential digital circuits, implemented using Verilog and SystemVerilog testbenches.
 
+## Tools & Technologies
+
+- **HDL:** Verilog, SystemVerilog
+- **Design:** RTL Design, Combinational Logic, Sequential Logic, FSM
+- **Verification:** SystemVerilog Testbenches, Functional Verification
+- **Simulation:** QuestaSim / ModelSim
+
 ## Combinational
+
 1. Half Adder
 2. Full Adder
 3. Adder/Subtractor
@@ -13,6 +21,7 @@ A collection of RTL design and functional verification projects covering fundame
 8. BCD Decoder
 
 ## Sequential
+
 ### Flip-Flops
 - D Flip-Flop
 - JK Flip-Flop
@@ -36,7 +45,8 @@ A collection of RTL design and functional verification projects covering fundame
 - Moore FSM
 
 ## HDL
-- Verilog — RTL design
-- SystemVerilog — testbench development
+
+- **Verilog** — RTL design
+- **SystemVerilog** — testbench development
 
 Generated simulator files are intentionally excluded.
