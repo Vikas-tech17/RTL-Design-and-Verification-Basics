@@ -1,0 +1,22 @@
+# HDL simulator-generated files
+work/
+transcript
+*.wlf
+*.vcd
+*.vpd
+*.fsdb
+*.mpf
+*.mti
+*.qdb
+*.qld
+*.jou
+*.log
+*.ucdb
+
+# Editor/OS
+.vscode/
+.idea/
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
