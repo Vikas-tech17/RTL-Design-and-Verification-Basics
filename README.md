@@ -1,7 +1,6 @@
 # RTL Design and Verification Basics
 
-Fundamental RTL design and verification projects implemented using Verilog RTL
-and SystemVerilog testbenches.
+A collection of RTL design and functional verification projects covering fundamental combinational and sequential digital circuits, implemented using Verilog and SystemVerilog testbenches.
 
 ## Combinational
 1. Half Adder
